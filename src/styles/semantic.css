@@ -1,0 +1,84 @@
+:root {
+    /*-L-i-g-t-h- -t-h-e-m-e-*/
+
+/*-B-r-a-n-d-*/
+
+--semantic-brand: var(--color-primary-800);
+--semantic-brand-hover: var(--color-primary-950);/*
+Tono mas alto que el brand*/
+
+--semantic-brand-soft: var(--color-primary-200);
+--semantic-brand-soft-hover: var(--color-primary-350);
+
+/*-B-a-c-k-g-r-o-u-d-*/
+
+--semantic-background: var(--color-white);/*FOndo de toda la aplicacion*/
+--semantic-surface: var(--color-gray-400);/*fondo de modles, cards, container*/
+
+/*====================*/
+/*-C-o-n-t-a-i-n-e-r-*/
+/*==================*/
+
+--semantic-surface-muted: var(--color-gray-200);/*Zonas secundarias con menor importancia*/
+
+--semantic-background-inverse: var(--color-gray-800);/*fondo de modles, cards, container*/
+
+/*==========*/
+/*-T-e-x-t-*/
+/*========*/
+
+--semantic-text-primary: var(--color-gray-900); /*Color principal de lectura, titulos, texto base del documento*/
+
+--semantic-text-secundary: var(--color-gray-700); /*Texto menos dominantes*/
+
+--semantic-text-muted: var(--color-gray-500); /*Texto deshabilitados por ejemplo*/
+
+--semantic-text-inverse: var(--color-white); /*Texto invertido*/
+
+/*==============*/
+/*-B-o-r-d-e-r-*/
+/*============*/
+
+--semantic-border: var(--color-gray-400); /*Borde principal de todos los componentes*/
+
+--semantic-border-strong: var(--color-gray-700); /*Borde mas fuertes*/
+
+/**/
+/*-F-o-c-u-s-*/
+/**/
+
+--semantic-focus-ring: var(--color-primary-700);
+
+/**/
+/**/
+/**/
+
+--semantic-success: var(--color-primary-950);
+--semantic-warning: var(--color-tertiary-950);
+--semantic-: ;
+
+/**/
+/**/
+/**/
+
+--semantic-font-size-display: var(--fs-lg); /*Texto de alto impacti, texto protagomista, hero, numeros grandes*/
+
+--semantic-font-size-h1: var(--fs-lg);
+--semantic-font-size-h2: var(--fs-md);
+--semantic-font-size-h3: var(--fs-sm);
+--semantic-font-size-body: var(--fs-xs);
+--semantic-font-size-medium: var(--fs-xxs);
+--semantic-font-size-small: var(--fs-xxxs);
+--semantic-font-size-caption: var(--fs-xxxxs);
+
+--semantic-font-weight-heading: var(--font-weight-bold);
+--semantic-font-weight-body: var(--font-weight-regular);
+--semantic-font-weight-label: var(--font-weight-regular);
+
+/*==================================================================*/
+/*-Y-a--n-o--d-e-p-e-n-d-e-mo-s--d-e--n-o-m-b-r-e-s--d-e--c-o-l-o-r,/
+-D-e-p-e-n-d-e-m-o-s--e--d-e--i-n-t-e-r-f-a-s---------------------*/
+/*===============================================================*/
+
+
+}

@@ -1,0 +1,79 @@
+@import url(tokends.css);
+@import url(semantic.css);
+@import "tailwindscss"; /*Esta linea debe quedar al fianl para que */
+
+@theme {
+    /*===========*/
+    /*-B-r-a-n-d*/
+    /*=========*/
+
+--color-brand: var(--semantic-brand);
+--color-hover: var(--semantic-brand-hover);
+--color-soft: var(--semantic-brand-soft);
+--color-brand-soft-hover: var(--semantic-brand-soft-hover);
+
+/*======================*/
+/*-B-a-c-k-g-r-o-u-n-d-*/
+/*====================*/
+
+--color-background: var(--semantic-background);
+--color-surface: var(--semantic-surface);
+--color-surface-muted: var(--semantic-surface-muted);
+--color-background-inverse: var(--semantic-background-inverse);
+
+/*==========*/
+/*-T-e-x-t-*/
+/*========*/
+
+--color-text-primary: var(--semantic-text-primary);
+--color-text-secundary: var(--semantic-text-secundary);
+--color-text-muted: var(--semantic-text-muted);
+--color-text-inverse: var(--semantic-text-inverse);
+
+/*==============*/
+/*-B-o-r-d-e-r-*/
+/*============*/
+
+--color-border: var(--semantic-border);
+--color-border-strong: var(--semantic-border-strong);
+
+/*============*/
+/*-F-o-c-u-s-*/
+/*==========*/
+
+--color-focus-ring: var(--semantic-focus-ring);
+--color-focus-border: var(--semantic-focus-border);
+
+/*============*/
+/*-S-t-a-t-e-*/
+/*==========*/
+
+--color-success: var(--semantic-success);
+--color-warning: var(--semantic-warning);
+--color-error: var(--semantic-error);
+
+/*=====================*/
+/*-T-i-p-o-g-r-a-p-h-y*/
+/*===================*/
+
+--text-display: var(--semantic-font-size-display);
+--text-h1: main(--semantic-font-size-h1);
+--text-title: var(--semantic-font-size-h2);
+--text-subtitle: var(--semantic-font-size-h3);
+--text-body: var(--semantic-font-size-body);
+--text-madium: var(--semantic-font-size-medium);
+--text-small: var(--semantic-font-size-small);
+--text-caption: var(--semantic-font-size-caption);
+
+/*=====================*/
+/*-F-o-n-t-w-e-i-g-h-t*/
+/*===================*/
+
+--fon-heading: var(--semantic-font-weight-heading);
+--font-body: var(--semantic-font-weight-body);
+--font-label: var(--semantic-font-weight-label);
+
+
+
+
+}
