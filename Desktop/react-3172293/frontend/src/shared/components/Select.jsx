@@ -1,0 +1,42 @@
+﻿// Componente Select reutilizable
+export default function Select({
+  label,
+  name,
+  value,
+  error,
+  onChange,
+  options = [],
+  htmlFor,
+}) {
+  return (
+    <div className="w-[320px]">
+      {label && (
+        <label htmlFor={htmlFor} className="block text-caption mb-1 text-text-muted">
+          {label}
+        </label>
+      )}
+
+      <select
+        id={htmlFor}
+        value={value}
+        onChange={onChange}
+        name={name}
+        className="w-full h-12 rounded-md border border-border px-4"
+      >
+        <option value="">Seleccione una opcion</option>
+
+        {options.map((option) => {
+          const optionValue = option.value ?? option.id;
+
+          return (
+            <option key={optionValue} value={optionValue}>
+              {option.label}
+            </option>
+          );
+        })}
+      </select>
+
+      {error && <p className="text-caption text-red-600 mt-1">{error}</p>}
+    </div>
+  );
+}

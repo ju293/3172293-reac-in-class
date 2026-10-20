@@ -1,0 +1,17 @@
+==================================================
+        USUARIOS DE PRUEBA DE LA BASE DE DATOS
+==================================================
+
+1. Fabian (Primer usuario / no puede iniciar sesion por el bcrypt)
+   - Correo: fabianguzman206@gmail.com
+   - Contraseña: 123456aL! (Plana en BD)
+
+2. Carlos Perez (Registrado vía Formulario)
+   - Correo: carlos@gmail.com
+   - Contraseña: 123456aL! (Encriptada con Bcrypt)
+
+3. Ana Martinez (Registrada vía Formulario)
+   - Correo: ana@gmail.com
+   - Contraseña: 123456aL! (Encriptada con Bcrypt)
+
+==================================================
